@@ -1,0 +1,49 @@
+# Ignore the .env file that contains sensitive data
+.env
+
+# Python-related ignores
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+
+# Database file (only for local development)
+db.sqlite3
+
+# Ignore local Django settings
+local_settings.py
+
+# Ignore static and media files (only if they're dynamically generated)
+staticfiles/
+media/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore temporary files
+*.bak
+*.swp
+*.swo
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore node_modules if you're using any frontend package managers like npm/yarn
+node_modules/
+
+# MacOS specific ignores
+.DS_Store
+
+# Ignore pipenv and poetry related files
+Pipfile
+Pipfile.lock
+poetry.lock
